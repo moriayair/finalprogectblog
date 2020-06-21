@@ -43,7 +43,7 @@
   height: 500px;
   width: 3500px; 
   margin-bottom: 80px;
-  animation: slide 60s linear infinite ;
+  animation: slide 70s linear infinite ;
   scroll-behavior: smooth;
 
 } 

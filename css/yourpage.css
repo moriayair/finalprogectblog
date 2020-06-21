@@ -99,11 +99,87 @@
     color: black;
   }
   
+.Lifestyle-continer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:55px ;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+#h2Top{
+  font-family: 'Balsamiq Sans', cursive; 
+  margin: 42px;
+  color: rgb(252, 222, 184);
+}
+
+* {
+  box-sizing: border-box;
+}
 
 
+.main {
+  max-width: 100px;
+  margin: auto;
+}
 
-  
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 16px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 16px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
-  
-  
+.content {
+  background-color: rgb(248, 248, 248);
+  padding: 8px ;
+  font-family: 'Balsamiq Sans', cursive; 
+}
+
+.show {
+  display: block;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  margin: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+#images{
+  width: 500px;
+  height: 500px;
+}
