@@ -112,7 +112,7 @@
 #h2Top{
   font-family: 'Balsamiq Sans', cursive; 
   margin: 42px;
-  color: rgb(252, 222, 184);
+  color: rgb(145, 184, 109);
 }
 
 * {
@@ -182,4 +182,40 @@ h1 {
 #images{
   width: 500px;
   height: 500px;
+}
+
+
+
+.seeMoreBtn  {
+  padding: 8px; 
+  font-size: 15px; 
+  height: 50px; 
+  border-radius: 16px; 
+  border:none; 
+  color :white;
+}
+
+#btnFood{
+ background-color :rgb(149, 204, 118);
+}
+#btnTravl{
+  background-color :rgb(236, 200, 132);
+}
+#btnArt{
+  background-color :rgb(255, 138, 43);
+}
+#btnHomeDesign{
+  background-color :rgb(219, 219, 219);
+}
+#btnFashion{
+  background-color :rgb(189, 172, 157);
+}
+#btnStyle{
+  background-color :rgb(80, 79, 79);
+}
+#btnForWomen{
+  background-color :rgb(255, 0, 0);
+}
+#btnForMen{
+  background-color :rgb(226, 168, 116);
 }
